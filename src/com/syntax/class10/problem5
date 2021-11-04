@@ -1,0 +1,17 @@
+package hw5And8;
+
+public class hmcountries {
+
+	public static void main(String[] args) {
+
+		String[]countries= {"USA","Canada","Mexico","France","England"};
+		String[]capitals= {"Washington D.C","Ottawa","Mexico City","Paris","London"};
+			
+			
+		for(int i=0; i<countries.length; i++) {
+			
+		    System.out.println("Capital city of "+countries[i]+" is "+capitals[i]);
+	}
+
+}
+}
