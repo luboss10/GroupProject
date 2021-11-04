@@ -1,0 +1,30 @@
+package hw5And8;
+
+import java.util.Scanner;
+
+public class HwFibonacci {
+
+	public static void main(String[] args) {
+		
+		Scanner scan=new Scanner(System.in);
+		
+		int series;
+		int num1=0; 
+		int num2=1;
+		System.out.println("How many of Fibonacci numbers you want to print?");
+		series=scan.nextInt();
+		
+		System.out.println("First "+series+ " numbers of Fibonacci series are:");
+		
+		int i=0;
+			while(i<=series) {
+				int sum= num1+num2; 
+				num1=num2;			
+				num2=sum;			
+				i++;			
+				System.out.print(num1+", ");
+
+	}
+
+}
+}
